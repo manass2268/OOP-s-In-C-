@@ -40,11 +40,11 @@ int main()
     Teacher T1; // Internalyy Constuctor calling
     T1.name = "MANAS";
     T1.subject = "C++";
-    T1.department = "CS";
 
     T1.setSalary(25000);
 
     cout << T1.name << endl;
+    cout << T1.department << endl;
     cout << T1.getSalary() << endl;
     return 0;
 }
