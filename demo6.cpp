@@ -10,7 +10,7 @@ private:
     double salary;
 
 public:
-    // NON-Partemsized Constructor
+    // NON-Partemsized Constructor or deflaut constructor
     Teacher()
     {
         cout << "Constructor Calling\n"; // Constructor Calling or written by programmer not a by defalut compiler
