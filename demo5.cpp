@@ -13,6 +13,7 @@ public:
     Teacher()
     {
         cout << "Constructor Calling\n"; // Constructor Calling or written by programmer not a by defalut compiler
+        department = "CSD";              // Constructor can create object automatically
     }
 
     string name;
