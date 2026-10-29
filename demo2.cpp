@@ -4,7 +4,8 @@ using namespace std;
 
 class Teacher
 {
-private:
+    // private:
+public:
     string name;
     string subject;
     string department;
