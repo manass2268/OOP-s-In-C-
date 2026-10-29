@@ -4,12 +4,14 @@ using namespace std;
 
 class Teacher
 {
-    // private:
+private:
+    double salary;
+    // demo2.cpp: In function 'int main()':
+    // demo2.cpp:8:12: error: 'double Teacher::salary' is private
 public:
     string name;
     string subject;
     string department;
-    double salary;
 
     // Methods / Member Functions
     void changeDepartment(string newDepartment)
