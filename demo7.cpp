@@ -35,20 +35,28 @@ public:
         department = newDepartment;
     }
 
-    void setSalary(double s)
+    /*void setSalary(double s)
     {
         salary = s;
     }
     double getSalary()
     {
         return salary;
+    }*/
+
+    void getInfo() // Inline Function is calling
+    {
+        cout << "name: " << name << endl;
+        cout << "department: " << department << endl;
+        cout << "subject: " << subject << endl;
+        cout << "salary: " << salary << endl;
     }
 };
 
 int main()
 {
     Teacher T1("Manas ", "CSD", "C++", 25000); // Internalyy Parametersied -Constuctor calling
-
+    T1.getInfo();                              // Paratmerised function calling
     /*T1.name = "MANAS";
     T1.subject = "C++";
 
