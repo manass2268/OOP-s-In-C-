@@ -17,7 +17,7 @@ public:
         department = "CSD";              // Constructor can create object automatically
     }
 
-    string name;
+       string name;
     string subject;
     string department;
 
