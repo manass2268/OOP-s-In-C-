@@ -10,6 +10,10 @@ private:
     double salary;
 
 public:
+    string name;
+    string subject;
+    string department;
+
     /* // NON-Partemsized Constructor or deflaut constructor
         Teacher()
         {
@@ -18,13 +22,15 @@ public:
         }*/
 
     // Partemsized Constructor
-    Teacher(string n, string d, string s, double sal)
+    Teacher(string name, string department, string subject, double salary)
     {
-        cout << "Paramertised-Constructor Calling\n"; // Constructor Calling or written by programmer not a by defalut compiler
-        name = n;
-        department = d;
-        subject = s;
-        salary = sal;
+        cout << "Paramertised-Constructor Calling\n"; // Using (this) operator to avoid ambiguity between class members and parameters
+
+        // (This) operator is used to refer to the current object of the class. It is a pointer that points to the object that invokes the member function. In this case, it is used to distinguish between the class member variables and the parameters passed to the constructor.
+        this->name = name;
+        this->department = department;
+        this->subject = subject;
+        this->salary = salary;
     }
     string name;
     string subject;
