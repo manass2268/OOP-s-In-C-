@@ -48,4 +48,5 @@ int main()
     cout << "After Modification" << endl;
     s1.getInfo();
     s2.getInfo();
+    return 0;
 }
