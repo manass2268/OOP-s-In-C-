@@ -1,4 +1,5 @@
-// Program using Functions
+// Pratical-1
+// WAP to Prefrom addition of two numbers using a function.
 #include <iostream>
 using namespace std;
 void add()
